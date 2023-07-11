@@ -1,6 +1,0 @@
-framework module Pods_Cartola_VIP_ArchitectureTests {
-  umbrella header "Pods-Cartola-VIP-ArchitectureTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
