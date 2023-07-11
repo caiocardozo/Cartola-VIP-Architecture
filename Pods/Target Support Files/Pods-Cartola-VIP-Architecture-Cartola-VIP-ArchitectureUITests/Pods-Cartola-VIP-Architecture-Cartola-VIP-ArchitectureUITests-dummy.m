@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Cartola_VIP_Architecture_Cartola_VIP_ArchitectureUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Cartola_VIP_Architecture_Cartola_VIP_ArchitectureUITests
+@end
