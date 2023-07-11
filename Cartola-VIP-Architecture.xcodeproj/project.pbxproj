@@ -10,13 +10,15 @@
 		28E738C4EFCF12C6B41175BE /* Pods_Cartola_VIP_Architecture.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6762343846AA29A7741E751A /* Pods_Cartola_VIP_Architecture.framework */; };
 		4C7648402A5CE637001758E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C76483F2A5CE637001758E8 /* AppDelegate.swift */; };
 		4C7648422A5CE637001758E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7648412A5CE637001758E8 /* SceneDelegate.swift */; };
-		4C7648442A5CE637001758E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7648432A5CE637001758E8 /* ViewController.swift */; };
-		4C7648472A5CE637001758E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C7648452A5CE637001758E8 /* Main.storyboard */; };
 		4C7648492A5CE639001758E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C7648482A5CE639001758E8 /* Assets.xcassets */; };
 		4C76484C2A5CE639001758E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C76484A2A5CE639001758E8 /* LaunchScreen.storyboard */; };
 		4C7648572A5CE639001758E8 /* Cartola_VIP_ArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7648562A5CE639001758E8 /* Cartola_VIP_ArchitectureTests.swift */; };
 		4C7648612A5CE639001758E8 /* Cartola_VIP_ArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7648602A5CE639001758E8 /* Cartola_VIP_ArchitectureUITests.swift */; };
 		4C7648632A5CE639001758E8 /* Cartola_VIP_ArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7648622A5CE639001758E8 /* Cartola_VIP_ArchitectureUITestsLaunchTests.swift */; };
+		4C8E38D42A5CEFBF0079CF75 /* HasCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E38D32A5CEFBF0079CF75 /* HasCustomView.swift */; };
+		4C8E38D82A5CEFE90079CF75 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E38D72A5CEFE90079CF75 /* HomeView.swift */; };
+		4C8E38DA2A5CEFF40079CF75 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E38D92A5CEFF40079CF75 /* HomeViewController.swift */; };
+		4C8E38DC2A5CF12D0079CF75 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8E38DB2A5CF12D0079CF75 /* BaseView.swift */; };
 		6889F9CE46E6A27A0CD1A2FB /* Pods_Cartola_VIP_Architecture_Cartola_VIP_ArchitectureUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A291D7F7BCBA841B0B1BADA1 /* Pods_Cartola_VIP_Architecture_Cartola_VIP_ArchitectureUITests.framework */; };
 		D73CC23F184B31D5A30ECC17 /* Pods_Cartola_VIP_ArchitectureTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CF0657C339D23113A1D9C0 /* Pods_Cartola_VIP_ArchitectureTests.framework */; };
 /* End PBXBuildFile section */
@@ -43,8 +45,6 @@
 		4C76483C2A5CE637001758E8 /* Cartola-VIP-Architecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cartola-VIP-Architecture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C76483F2A5CE637001758E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C7648412A5CE637001758E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4C7648432A5CE637001758E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C7648462A5CE637001758E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C7648482A5CE639001758E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C76484B2A5CE639001758E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C76484D2A5CE639001758E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,6 +53,10 @@
 		4C76485C2A5CE639001758E8 /* Cartola-VIP-ArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cartola-VIP-ArchitectureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C7648602A5CE639001758E8 /* Cartola_VIP_ArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cartola_VIP_ArchitectureUITests.swift; sourceTree = "<group>"; };
 		4C7648622A5CE639001758E8 /* Cartola_VIP_ArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cartola_VIP_ArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C8E38D32A5CEFBF0079CF75 /* HasCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCustomView.swift; sourceTree = "<group>"; };
+		4C8E38D72A5CEFE90079CF75 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4C8E38D92A5CEFF40079CF75 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4C8E38DB2A5CF12D0079CF75 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		55210F314FA3BB79CFFC5111 /* Pods-Cartola-VIP-ArchitectureTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartola-VIP-ArchitectureTests.release.xcconfig"; path = "Target Support Files/Pods-Cartola-VIP-ArchitectureTests/Pods-Cartola-VIP-ArchitectureTests.release.xcconfig"; sourceTree = "<group>"; };
 		5D22F0E04226B391B827160B /* Pods-Cartola-VIP-Architecture-Cartola-VIP-ArchitectureUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cartola-VIP-Architecture-Cartola-VIP-ArchitectureUITests.debug.xcconfig"; path = "Target Support Files/Pods-Cartola-VIP-Architecture-Cartola-VIP-ArchitectureUITests/Pods-Cartola-VIP-Architecture-Cartola-VIP-ArchitectureUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6762343846AA29A7741E751A /* Pods_Cartola_VIP_Architecture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cartola_VIP_Architecture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,10 +130,10 @@
 		4C76483E2A5CE637001758E8 /* Cartola-VIP-Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				4C8E38D52A5CEFDB0079CF75 /* Scenes */,
+				4C8E38CF2A5CEF960079CF75 /* Comuns */,
 				4C76483F2A5CE637001758E8 /* AppDelegate.swift */,
 				4C7648412A5CE637001758E8 /* SceneDelegate.swift */,
-				4C7648432A5CE637001758E8 /* ViewController.swift */,
-				4C7648452A5CE637001758E8 /* Main.storyboard */,
 				4C7648482A5CE639001758E8 /* Assets.xcassets */,
 				4C76484A2A5CE639001758E8 /* LaunchScreen.storyboard */,
 				4C76484D2A5CE639001758E8 /* Info.plist */,
@@ -154,6 +158,40 @@
 			path = "Cartola-VIP-ArchitectureUITests";
 			sourceTree = "<group>";
 		};
+		4C8E38CF2A5CEF960079CF75 /* Comuns */ = {
+			isa = PBXGroup;
+			children = (
+				4C8E38D22A5CEFB20079CF75 /* Base */,
+			);
+			path = Comuns;
+			sourceTree = "<group>";
+		};
+		4C8E38D22A5CEFB20079CF75 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4C8E38D32A5CEFBF0079CF75 /* HasCustomView.swift */,
+				4C8E38DB2A5CF12D0079CF75 /* BaseView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		4C8E38D52A5CEFDB0079CF75 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				4C8E38D62A5CEFDF0079CF75 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4C8E38D62A5CEFDF0079CF75 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4C8E38D72A5CEFE90079CF75 /* HomeView.swift */,
+				4C8E38D92A5CEFF40079CF75 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		E891275BB6CED14551C54BFE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +202,6 @@
 				7F2EDA6FB4E75FA15272599C /* Pods-Cartola-VIP-ArchitectureTests.debug.xcconfig */,
 				55210F314FA3BB79CFFC5111 /* Pods-Cartola-VIP-ArchitectureTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -279,7 +316,6 @@
 			files = (
 				4C76484C2A5CE639001758E8 /* LaunchScreen.storyboard in Resources */,
 				4C7648492A5CE639001758E8 /* Assets.xcassets in Resources */,
-				4C7648472A5CE637001758E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +443,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C7648442A5CE637001758E8 /* ViewController.swift in Sources */,
+				4C8E38DA2A5CEFF40079CF75 /* HomeViewController.swift in Sources */,
+				4C8E38D42A5CEFBF0079CF75 /* HasCustomView.swift in Sources */,
+				4C8E38D82A5CEFE90079CF75 /* HomeView.swift in Sources */,
+				4C8E38DC2A5CF12D0079CF75 /* BaseView.swift in Sources */,
 				4C7648402A5CE637001758E8 /* AppDelegate.swift in Sources */,
 				4C7648422A5CE637001758E8 /* SceneDelegate.swift in Sources */,
 			);
@@ -446,14 +485,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4C7648452A5CE637001758E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C7648462A5CE637001758E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4C76484A2A5CE639001758E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -592,7 +623,6 @@
 				INFOPLIST_FILE = "Cartola-VIP-Architecture/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -621,7 +651,6 @@
 				INFOPLIST_FILE = "Cartola-VIP-Architecture/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
